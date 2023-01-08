@@ -1,0 +1,2268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fafa/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <header class="fixed-top"> -->
+    <!-- -----------------------------------------------------------------------------------------------------                                                       HEADER SECTION 
+    ------------------------------------------------------------------------------------------------------>
+
+    <section class="header-section d-none d-lg-block">
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+          <div class="container-fluid p-0">
+            <!-- <a class="navbar-brand" href="#"
+                ><i class="fa fa-dot-circle-o" aria-hidden="true"></i
+              ></a> -->
+
+            <div
+              class="collapse navbar-collapse navbar-1 show"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav navbar-nav1 m-0 ps-5 py-2">
+                <li class="nav-item d-flex align-items-center">
+                  <a class="navbar-brand m-0 text-light" href="#"
+                    ><i class="fa fa-dot-circle-o" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <p class="header-margin text-start text-light">
+                    Welcome to our Gimia Esports team
+                  </p>
+                </li>
+                <li class="nav-item d-flex align-items-center mx-2">
+                  <div class="ver-line"></div>
+                </li>
+                <li class="nav-item dropdown d-flex align-items-center">
+                  <a
+                    class="nav-link dropdown-toggle text-light"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span class="fs-5 me-1 text-light"
+                      ><i class="fa fa-globe" aria-hidden="true"></i
+                    ></span>
+                    <span class="fs-5 text-light">Language</span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <ul
+                class="d-flex justify-content-end navbar-nav navbar-nav2 text-secondary pe-5 py-2"
+              >
+                <li class="nav-item d-flex align-items-center">
+                  <span class="fs-5"
+                    ><i class="fa fa-clock-o" aria-hidden="true"></i
+                  ></span>
+                </li>
+
+                <li class="nav-item">
+                  <p class="header-margin">Mon - Sat: 8:00 am - 7:00 pm</p>
+                </li>
+
+                <li class="nav-item d-flex align-items-center ms-3 me-4">
+                  <div class="ver-line ver-line2"></div>
+                </li>
+
+                <li
+                  class="nav-item d-flex align-items-center justify-content-center gap-4"
+                >
+                  <div class="social-icons">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </div>
+                  <div class="social-icons">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </div>
+                  <div class="social-icons">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </div>
+                  <div class="social-icons">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       NAVIGATION MENU SECTION 
+    ------------------------------------------------------------------------------------------------------>
+
+    <section class="navigation-section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light navigation-menu">
+          <!-- Logo -->
+          <div class="d-flex align-items-center py-3 me-3 d-block d-lg-none">
+            <a class="navbar-brand d-flex" href="index.html">
+              <img src="images/preload-icon.png" class="" alt="" height="70" />
+            </a>
+            <div class="nav-logo-div">
+              <p class="p-0 m-0 fs-3 fw-bold">Gimia</p>
+              <p class="p-0 m-0 nav-logo-text">Fitness Center</p>
+            </div>
+          </div>
+
+          <!-- Click menu button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <!-- Navbar -->
+            <div
+              class="container-fluid d-flex flex-column flex-lg-row justify-content-between"
+            >
+              <!-- Styling navigation logo -->
+              <div class="d-flex align-items-center py-3 me-3">
+                <a class="navbar-brand d-flex" href="#">
+                  <img
+                    src="images/preload-icon.png"
+                    class=""
+                    alt=""
+                    height="70"
+                  />
+                </a>
+                <div class="nav-logo-div">
+                  <p class="p-0 m-0 fs-3 fw-bold">Gimia</p>
+                  <p class="p-0 m-0 nav-logo-text">Fitness Center</p>
+                </div>
+              </div>
+
+              <ul
+                class="navbar-nav mb-2 mb-lg-0 gap-3 ms-lg-5 fw-bold flex-md-column flex-lg-row align-items-start align-items-lg-center"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">PRODUCT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+              </ul>
+
+              <div
+                class="navigation-end-div align-items-center gap-2 d-none d-xl-flex"
+              >
+                <div class="phone-icon-div fs-1">
+                  <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                </div>
+                <div class="">
+                  <p class="p-0 m-0">Free call</p>
+                  <p class="p-0 m-0 fw-bold fs-5">012-3256-21563</p>
+                </div>
+
+                <button class="contact-us-btn ms-2">
+                  Contact us
+                  <span
+                    ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                  ></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- </header> -->
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       CAROUSEL SECTION 
+    ------------------------------------------------------------------------------------------------------>
+
+    <section class="carousel-section">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <!-- Indicators -->
+        <div class="carousel-indicators d-lg-flex d-none">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide-to="0"
+            class="indicator active"
+            aria-current="true"
+            aria-label="Slide 1"
+          >
+            1
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class="indicator"
+          >
+            2
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class="indicator"
+          >
+            3
+          </button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-bg-1">
+            <div class="container">
+              <div class="row align-items-center" style="height: 100vh">
+                <div class="col-10 col-lg-7">
+                  <p class="carousel-section-title">Dont stop till you drop</p>
+                  <h1 class="carousel-section-subtitle">Get thin and win</h1>
+                  <p class="text-secondary fw-bold mt-1 carousel-desc">
+                    Authoritatively parallel task pandemic bandwidth whereas
+                    distinctive synergy.
+                  </p>
+                  <button class="view-services-btn mt-4 me-3">
+                    View All Services
+                    <span
+                      ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                    ></span>
+                  </button>
+                  <button class="video-play-btn">
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd slide -->
+          <div class="carousel-item carousel-bg-2">
+            <div class="container">
+              <div class="row align-items-center" style="height: 100vh">
+                <div class="col-10 col-lg-7">
+                  <p class="carousel-section-title">
+                    Dont stop till your success
+                  </p>
+                  <h1 class="carousel-section-subtitle">Get Fit to happy</h1>
+                  <p class="text-secondary fw-bold mt-1 carousel-desc">
+                    Authoritatively parallel task pandemic bandwidth whereas
+                    distinctive synergy.
+                  </p>
+                  <button class="view-services-btn mt-4 me-3">
+                    View All Services
+                    <span
+                      ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                    ></span>
+                  </button>
+                  <button class="video-play-btn">
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd slide  -->
+          <div class="carousel-item carousel-bg-3">
+            <div class="container">
+              <div class="row align-items-center" style="height: 100vh">
+                <div class="col-10 col-lg-7">
+                  <p class="carousel-section-title">
+                    Success comes from passion
+                  </p>
+                  <h1 class="carousel-section-subtitle">Be fit for win</h1>
+                  <p class="carousel-desc text-secondary fw-bold mt-1">
+                    Authoritatively parallel task pandemic bandwidth whereas
+                    distinctive synergy.
+                  </p>
+                  <button class="view-services-btn mt-4 me-3">
+                    View All Services
+                    <span
+                      ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                    ></span>
+                  </button>
+                  <button class="video-play-btn">
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       OUR AMAZING SERVICES SECTION 
+    ------------------------------------------------------------------------------------------------------>
+
+    <section class="our-amazing-features-section">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center gap-3">
+          <div class="hori-line"></div>
+          <p class="our-amazing-features-title fs-4 fw-bold p-0 m-0">
+            Our Amazing Services
+          </p>
+          <div class="hori-line"></div>
+        </div>
+        <h2 class="our-amazing-features-sub-title text-center fw-bold">
+          Service Features
+        </h2>
+
+        <!-- Card carousel -->
+
+        <div
+          id="carouselExampleControls1"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active service-feature-carousel-item">
+              <div class="row row-cols-sm-2 justify-content-center">
+                <div class="col-10 col-sm-6 col-lg-4">
+                  <!-- CARD 1 -->
+                  <div class="mx-auto card services-card">
+                    <div class="img1 bg-danger">
+                      <img
+                        src="images/service3-1.jpg"
+                        alt=""
+                        class="img-fluid i"
+                      />
+                    </div>
+                    <div class="card-body px-4">
+                      <h3 class="card-title">White Heat Yoga</h3>
+                      <p class="card-text py-3 text-secondary">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="yoga-icon-div">
+                          <img src="images/service-1.png" alt="" />
+                        </div>
+                        <button class="read-more-btn">
+                          Read More
+                          <span
+                            ><i
+                              class="fa fa-long-arrow-right"
+                              aria-hidden="true"
+                            ></i
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-none d-sm-block col-sm-6 col-lg-4">
+                  <!-- CARD 2 -->
+                  <div class="mx-auto card services-card">
+                    <div class="img1 bg-success">
+                      <img
+                        src="images/service3-2.jpg"
+                        alt=""
+                        class="img-fluid i"
+                      />
+                    </div>
+                    <div class="card-body px-4">
+                      <h3 class="card-title">Out Back Yoga</h3>
+                      <p class="card-text py-3 text-secondary">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="yoga-icon-div">
+                          <img src="images/service-2.png" alt="" />
+                        </div>
+                        <button class="read-more-btn">
+                          Read More
+                          <span
+                            ><i
+                              class="fa fa-long-arrow-right"
+                              aria-hidden="true"
+                            ></i
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-none col-lg-4 d-lg-block">
+                  <!-- CARD 3 -->
+                  <div class="mx-auto card services-card">
+                    <div class="img1">
+                      <img
+                        src="images/service3-3.jpg"
+                        alt=""
+                        class="img-fluid i"
+                      />
+                    </div>
+                    <div class="card-body px-4">
+                      <h3 class="card-title">Heartbeat House</h3>
+                      <p class="card-text py-3 text-secondary">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="yoga-icon-div">
+                          <img src="images/service-3.png" alt="" />
+                        </div>
+                        <button class="read-more-btn">
+                          Read More
+                          <span
+                            ><i
+                              class="fa fa-long-arrow-right"
+                              aria-hidden="true"
+                            ></i
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item service-feature-carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-10 col-sm-6 col-lg-4">
+                  <!-- Card 4 -->
+                  <div class="mx-auto card services-card">
+                    <div class="img1">
+                      <img
+                        src="images/service3-4.jpg"
+                        alt=""
+                        class="img-fluid i"
+                      />
+                    </div>
+                    <div class="card-body px-4">
+                      <h3 class="card-title">Yoga for Mind</h3>
+                      <p class="card-text py-3 text-secondary">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="yoga-icon-div">
+                          <img src="images/service-4.png" alt="" />
+                        </div>
+                        <button class="read-more-btn">
+                          Read More
+                          <span
+                            ><i
+                              class="fa fa-long-arrow-right"
+                              aria-hidden="true"
+                            ></i
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-none d-sm-block col-sm-6 col-lg-4">
+                  <!-- CARD 5 -->
+                  <div class="mx-auto card services-card">
+                    <div class="img1">
+                      <img
+                        src="images/service3-1.jpg"
+                        alt=""
+                        class="img-fluid i"
+                      />
+                    </div>
+                    <div class="card-body px-4">
+                      <h3 class="card-title">White Heat Yoga</h3>
+                      <p class="card-text py-3 text-secondary">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="yoga-icon-div">
+                          <img src="images/service-1.png" alt="" />
+                        </div>
+                        <button class="read-more-btn">
+                          Read More
+                          <span
+                            ><i
+                              class="fa fa-long-arrow-right"
+                              aria-hidden="true"
+                            ></i
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-none col-lg-4 d-lg-block">
+                  <!-- CARD 6 -->
+                  <div class="mx-auto card services-card">
+                    <div class="img1">
+                      <img
+                        src="images/service3-2.jpg"
+                        alt=""
+                        class="img-fluid i"
+                      />
+                    </div>
+                    <div class="card-body px-4">
+                      <h3 class="card-title">Out Back Yoga</h3>
+                      <p class="card-text py-3 text-secondary">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="yoga-icon-div">
+                          <img src="images/service-2.png" alt="" />
+                        </div>
+                        <button class="read-more-btn">
+                          Read More
+                          <span
+                            ><i
+                              class="fa fa-long-arrow-right"
+                              aria-hidden="true"
+                            ></i
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel_control_prev d-xl-block d-none"
+            type="button"
+            data-bs-target="#carouselExampleControls1"
+            data-bs-slide="prev"
+          >
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          </button>
+          <button
+            class="carousel_control_next d-xl-block d-none"
+            type="button"
+            data-bs-target="#carouselExampleControls1"
+            data-bs-slide="next"
+          >
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       FOCUS SECTION 
+    ------------------------------------------------------------------------------------------------------>
+    <section class="focus-section">
+      <div class="casting"></div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-lg-5 col-xl-4 text-center m-0 p-0">
+            <p class="text-light fs-1 fw-bold p-0 m-0">
+              Focus on your own body shape
+            </p>
+          </div>
+          <div class="col-sm-12 col-lg-7 col-xl-5 ms-auto text-center">
+            <button
+              class="get-appointment-btn view-services-btn me-lg-4 me-0 mb-3"
+            >
+              Get Appointment
+              <span
+                ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
+              ></span>
+            </button>
+            <button class="get-checkup-btn">Get Free Check Up</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       WHY CHOOSE US SECTION 
+    ------------------------------------------------------------------------------------------------------>
+
+    <section class="why-choose-us-section">
+      <div class="container">
+        <div class="row row-cols-2 justify-content-between h-100">
+          <div class="col-12 col-lg-5 m-lg-0 m-2">
+            <div class="d-flex align-items-center">
+              <div class="hori-line"></div>
+              <p class="p-0 m-0 fs-5 ms-3 why-text">Why Choose Us</p>
+            </div>
+            <p class="why-subtitle pt-2">Keep Going With Your Passion</p>
+            <p class="text-secondary pb-3 fw-bold">
+              Seamlessly benchmark inexpensive technology before team driven
+              technology. Conveniently fashion empowered intellectual capital
+              whereas high-payoff services.
+            </p>
+            <hr />
+
+            <div class="d-flex gap-5 mt-4 mb-3 why-choose-us-left-div-text">
+              <div class="text-secondary">
+                <span class="me-2 tick-icon-div"
+                  ><i class="fa fa-check" aria-hidden="true"></i
+                ></span>
+                Body Fitness
+              </div>
+              <div class="text-secondary">
+                <span class="me-2 tick-icon-div">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </span>
+                Health Care
+              </div>
+            </div>
+
+            <div class="d-flex gap-5 why-choose-us-left-div-text mt-5">
+              <div class="text-secondary">
+                <span class="me-2 tick-icon-div">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </span>
+                Body Building
+              </div>
+              <div class="text-secondary">
+                <span class="me-2 tick-icon-div">
+                  <i class="fa fa-check" aria-hidden="true"></i>
+                </span>
+                Fitness Care
+              </div>
+            </div>
+
+            <button class="learn-more-btn contact-us-btn mt-5">
+              Learn More
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div
+            class="col-12 col-lg-6 align-self-center mt-5 mt-lg-0 m-lg-0 ms-1"
+          >
+            <!-- ACCORDION PART -->
+            <div class="accordion" id="accordionExample">
+              <!-- ACCORDION 1 -->
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button py-4 px-5"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    If I face issue then how can I contact with you?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Progressively administrate enterprise wide initiatives
+                    without intuitive intellectual capital. Interactively click
+                    architect and mortar communities for cooperative testing
+                    procedures. Interactively optimize customer service whereas
+                    cross-media communities. Rapidiously leverage other impact.
+                  </div>
+                </div>
+              </div>
+
+              <!-- ACCORDION 2 -->
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed py-4 px-5"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    When Your Consult Business Begins To Grow?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Progressively administrate enterprise wide initiatives
+                    without intuitive intellectual capital. Interactively click
+                    architect and mortar communities for cooperative testing
+                    procedures. Interactively optimize customer service whereas
+                    cross-media communities. Rapidiously leverage other impact.
+                  </div>
+                </div>
+              </div>
+
+              <!-- ACCORDION 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed py-4 px-5"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Common Misconcep About Building A Team?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Progressively administrate enterprise wide initiatives
+                    without intuitive intellectual capital. Interactively click
+                    architect and mortar communities for cooperative testing
+                    procedures. Interactively optimize customer service whereas
+                    cross-media communities. Rapidiously leverage other impact.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- WHY CHOOSE US RECTANGLE CARDS -->
+          <div class="col-12 mt-5">
+            <div class="row align-items-center">
+              <div class="col-12 col-sm-6 col-md-4">
+                <!-- Flex div to align everything -->
+                <div
+                  class="d-flex justify-content-center align-items-center gap-4 py-5 wcu-cards"
+                >
+                  <span><img src="images/achive-1.png" alt="" /></span>
+                  <div>
+                    <p class="p-0 m-0 text-secondary">Good result</p>
+                    <p class="fs-1 fw-bold p-0 m-0">6000</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4">
+                <!-- Flex div to align everything -->
+                <div
+                  class="d-flex justify-content-center align-items-center gap-4 py-5 wcu-cards"
+                >
+                  <span><img src="images/achive-2.png" alt="" /></span>
+                  <div>
+                    <p class="p-0 m-0 text-secondary">Body Builder</p>
+                    <p class="fs-1 fw-bold p-0 m-0">2000</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-4">
+                <!-- Flex div to align everything -->
+                <div
+                  class="d-flex h-50 justify-content-center align-items-center gap-4 py-5 wcu-cards"
+                >
+                  <span><img src="images/achive-3.png" alt="" /></span>
+                  <div>
+                    <p class="p-0 m-0 text-secondary">Champion</p>
+                    <p class="fs-1 fw-bold p-0 m-0">365</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       CALCULATE BMI SECTION 
+    ------------------------------------------------------------------------------------------------------>
+
+    <section class="bmi-section">
+      <div class="container bmi-container">
+        <div class="row align-items-center h-100 py-5">
+          <div class="col-12 col-lg-6 text-center">
+            <p class="bmi-title p-0 m-0 mt-lg-0">CALCULATE YOUR BMI</p>
+            <p class="fs-2 fw-bold p-0 m-0 mb-2">CALCULATE YOUR BMI</p>
+            <div class="hori-line mx-auto"></div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div
+              class="d-flex gap-lg-3 flex-column flex-lg-row align-items-center justify-content-center"
+            >
+              <span class="text-secondary">
+                <label for="" class="mb-2 mt-4 mt-lg-0">HEIGHT(CM)</label><br />
+                <input type="text" class="i1" placeholder="Centimeter" />
+              </span>
+              <span class="text-secondary">
+                <label for="" class="mb-2">WEIGHT(KG)</label><br />
+                <input type="text" class="i2" placeholder="KG" />
+              </span>
+              <button
+                class="calculate-btn contact-us-btn align-self-lg-end mt-3 mt-lg-0"
+              >
+                Calculate
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
+            <p class="mt-4 text-secondary text-center text-lg-start">
+              Enter height and weight to get BMI
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       JOIN OUR FITNESS SESSION SECTION 
+    ------------------------------------------------------------------------------------------------------>
+
+    <section class="join-fitness-section">
+      <!-- Copy pasting our amazing service's title and subtitle coz same styling has to be applied for this section's title and subtitle. So the class names will be of our services section and just content will change-->
+      <div class="d-flex justify-content-center align-items-center gap-3">
+        <div class="hori-line"></div>
+        <p class="our-amazing-features-title fs-4 fw-bold p-0 m-0">
+          Join Our Fitness Sessions
+        </p>
+        <div class="hori-line"></div>
+      </div>
+      <h2 class="our-amazing-features-sub-title text-center fw-bold">
+        Upcoming Sessions
+      </h2>
+
+      <div class="container mt-5">
+        <div class="row row-cols-3 h-100 justify-content-center">
+          <div class="col-11 col-md-6 col-xl-4">
+            <!-- ROW 1 CARD 1 -->
+            <div class="card ps-4 pe-2 py-4 fitness-card">
+              <div class="card-body">
+                <h5 class="card-title">White Heat Yoga</h5>
+                <p class="card-text p-0 m-0 pt-2 text-secondary fw-bold">
+                  Thursday, November 26th, 2021
+                </p>
+                <p class="p-0 m-0 pb-3 text-secondary fw-bold">
+                  10:00am - 12:00pm
+                </p>
+                <a href="#" class="text-decoration-underline register-link">
+                  Register Now
+                  <span>
+                    <i
+                      class="fa fa-long-arrow-right text-decoration-underline"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-11 col-md-6 mt-4 mt-md-0 col-xl-4">
+            <!-- ROW 1 CARD 2 -->
+            <div class="card ps-4 pe-2 py-4 fitness-card">
+              <div class="card-body">
+                <h5 class="card-title">Shanti Hot Yoga</h5>
+                <p class="card-text p-0 m-0 pt-2 text-secondary fw-bold">
+                  Thursday, November 26th, 2021
+                </p>
+                <p class="p-0 m-0 pb-3 text-secondary fw-bold">
+                  10:00am - 12:00pm
+                </p>
+                <a href="#" class="text-decoration-underline register-link">
+                  Register Now
+                  <span>
+                    <i
+                      class="fa fa-long-arrow-right text-decoration-underline"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-11 col-md-6 col-xl-4 mt-4 mt-xl-0">
+            <!-- ROW 1 CARD 3 -->
+            <div class="card ps-4 pe-2 py-4 fitness-card">
+              <div class="card-body">
+                <h5 class="card-title">Nine Treasures Yoga</h5>
+                <p class="card-text p-0 m-0 pt-2 text-secondary fw-bold">
+                  Thursday, November 26th, 2021
+                </p>
+                <p class="p-0 m-0 pb-3 text-secondary fw-bold">
+                  10:00am - 12:00pm
+                </p>
+                <a href="#" class="text-decoration-underline register-link">
+                  Register Now
+                  <span>
+                    <i
+                      class="fa fa-long-arrow-right text-decoration-underline"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-11 col-md-6 col-xl-4 mt-4">
+            <!-- ROW 1 CARD 4 -->
+            <div class="card ps-4 pe-2 py-4 fitness-card">
+              <div class="card-body">
+                <h5 class="card-title">Heartbeat House</h5>
+                <p class="card-text p-0 m-0 pt-2 text-secondary fw-bold">
+                  Thursday, November 26th, 2021
+                </p>
+                <p class="p-0 m-0 pb-3 text-secondary fw-bold">
+                  10:00am - 12:00pm
+                </p>
+                <a href="#" class="text-decoration-underline register-link">
+                  Register Now
+                  <span>
+                    <i
+                      class="fa fa-long-arrow-right text-decoration-underline"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-11 col-md-6 col-xl-4 mt-4">
+            <!-- ROW 1 CARD 5 -->
+            <div class="card ps-4 pe-2 py-4 fitness-card">
+              <div class="card-body">
+                <h5 class="card-title">Integral Yoga Center</h5>
+                <p class="card-text p-0 m-0 pt-2 text-secondary fw-bold">
+                  Thursday, November 26th, 2021
+                </p>
+                <p class="p-0 m-0 pb-3 text-secondary fw-bold">
+                  10:00am - 12:00pm
+                </p>
+                <a href="#" class="text-decoration-underline register-link">
+                  Register Now
+                  <span>
+                    <i
+                      class="fa fa-long-arrow-right text-decoration-underline"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-11 col-md-6 col-xl-4 mt-4">
+            <!-- ROW 1 CARD 6 -->
+            <div class="card ps-4 pe-2 py-4 fitness-card">
+              <div class="card-body">
+                <h5 class="card-title">Out Back Yoga</h5>
+                <p class="card-text p-0 m-0 pt-2 text-secondary fw-bold">
+                  Thursday, November 26th, 2021
+                </p>
+                <p class="p-0 m-0 pb-3 text-secondary fw-bold">
+                  10:00am - 12:00pm
+                </p>
+                <a href="#" class="text-decoration-underline register-link">
+                  Register Now
+                  <span>
+                    <i
+                      class="fa fa-long-arrow-right text-decoration-underline"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- This below button is put inside of a div so that I can horizontally center it -->
+      <div class="text-center">
+        <button class="learn-more-btn contact-us-btn mt-5">
+          Learn More
+          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       DISCOUNT SECTION 
+    ------------------------------------------------------------------------------------------------------>
+
+    <section class="discount-section">
+      <div class="container">
+        <div class="row align-items-center h-100">
+          <div class="col-sm-12 col-lg-10 text-sm-center text-lg-start">
+            <p class="discount-title fw-bold text-light">
+              Get 10% Discount for all Yoga Classes
+            </p>
+            <p class="text-light fs-4 discount-desc">
+              Continually negotiate economically sound internal or "organic"
+              sources through low-risk high-yield results.
+            </p>
+          </div>
+          <div class="col-sm-12 col-lg-2 text-center text-lg-end mt-3 mt-lg-0">
+            <button class="Enroll-now-btn contact-us-btn">
+              Enroll now
+              <span>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       FEATURED PRODUCTS SECTION 
+    ------------------------------------------------------------------------------------------------------>
+    <section class="featured-products-section">
+      <!-- Copy pasting our amazing service's title and subtitle coz same styling has to be applied for this section's title and subtitle. So the class names will be of our services section and just content will change-->
+      <div class="d-flex justify-content-center align-items-center gap-3">
+        <div class="hori-line"></div>
+        <p class="our-amazing-features-title fs-4 fw-bold p-0 m-0">
+          You May Love These
+        </p>
+        <div class="hori-line"></div>
+      </div>
+      <h2 class="our-amazing-features-sub-title text-center fw-bold mb-5">
+        Featured Products
+      </h2>
+
+      <!-- FEATURED PRODUCT CARD CAROUSEL -->
+      <div class="container">
+        <div
+          id="productCardsCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center h-100 py-2">
+                <!-- COL 1 -->
+                <div class="col-8 col-md-6 col-lg-3">
+                  <!-- PRODUCT CARD 1 -->
+                  <div class="card product-card">
+                    <div class="aja">
+                      <img
+                        src="images/product-big-7-1.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+
+                      <div class="icon-div d-flex gap-2 text-secondary">
+                        <div class="icon">
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <div
+                          class="icon"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal1"
+                        >
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <!-- <i class="fa fa-heart" aria-hidden="true"></i> -->
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <i class="fa fa-th-large" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center mt-3">
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <a
+                        href="product.html"
+                        class="text-decoration-none text-dark fw-bold d-inline-block my-2"
+                      >
+                        LOGO COLLECTION </a
+                      ><br />
+                      <span class="product-price">$18.00</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- COL 2 -->
+                <div class="d-none d-md-block col-md-6 col-lg-3">
+                  <!-- PRODUCT CARD 2 -->
+                  <div class="card product-card">
+                    <div class="aja">
+                      <img
+                        src="images/product-big-1.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+
+                      <div class="icon-div d-flex gap-2 text-secondary">
+                        <div class="icon">
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <div
+                          class="icon"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal2"
+                        >
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <!-- <i class="fa fa-heart" aria-hidden="true"></i> -->
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <i class="fa fa-th-large" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center mt-3">
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <a
+                        href="product.html"
+                        class="text-decoration-none text-dark fw-bold d-inline-block my-2"
+                      >
+                        ALBUM </a
+                      ><br />
+                      <span class="product-price">$15.00</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- COL 3 -->
+                <div class="d-none d-lg-block col-lg-3">
+                  <!-- PRODUCT CARD 3 -->
+                  <div class="card product-card">
+                    <div class="aja">
+                      <img
+                        src="images/product-big-2-1.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+
+                      <div class="icon-div d-flex gap-2 text-secondary">
+                        <div class="icon">
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <div
+                          class="icon"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <!-- <i class="fa fa-heart" aria-hidden="true"></i> -->
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <i class="fa fa-th-large" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center mt-3">
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <a
+                        href="product.html"
+                        class="text-decoration-none text-dark fw-bold d-inline-block my-2"
+                      >
+                        LONG SLEEVE TEE </a
+                      ><br />
+                      <span class="product-price">$25.00</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- COL 4 -->
+                <div class="d-none d-lg-block col-lg-3">
+                  <!-- PRODUCT CARD 4 -->
+                  <div class="card product-card">
+                    <div class="aja">
+                      <div class="sale">Hot</div>
+                      <img
+                        src="images/product-big-4-1.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+
+                      <div class="icon-div d-flex gap-2 text-secondary">
+                        <div class="icon">
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <div
+                          class="icon"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal4"
+                        >
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <!-- <i class="fa fa-heart" aria-hidden="true"></i> -->
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <i class="fa fa-th-large" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center mt-3">
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <a
+                        href="product.html"
+                        class="text-decoration-none text-dark fw-bold d-inline-block my-2"
+                      >
+                        HOODIE WITH POCKET </a
+                      ><br />
+                      <span class="product-price d-inline-block">$35.00</span>
+                      <span class="text-decoration-line-through">$45.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2ND SLIDE -->
+            <div class="carousel-item">
+              <div class="row h-100 justify-content-center py-2">
+                <!-- COL 5 -->
+                <div class="col-8 d-md-block col-md-6 col-lg-3">
+                  <!-- PRODUCT CARD 5 -->
+                  <div class="card product-card">
+                    <div class="aja">
+                      <div class="sale">Sale</div>
+                      <img
+                        src="images/product-big-4.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+
+                      <div class="icon-div d-flex gap-2 text-secondary">
+                        <div class="icon">
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <div
+                          class="icon"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal5"
+                        >
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <!-- <i class="fa fa-heart" aria-hidden="true"></i> -->
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <i class="fa fa-th-large" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center mt-3">
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <a
+                        href="product.html"
+                        class="text-decoration-none text-dark fw-bold d-inline-block my-2"
+                      >
+                        BEANIE WITH LOGO </a
+                      ><br />
+                      <span class="product-price">$18.00</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- COL 6 -->
+                <div class="d-none d-md-block col-md-6 col-lg-3">
+                  <!-- PRODUCT CARD 5 -->
+                  <div class="card product-card">
+                    <div class="aja">
+                      <div class="sale">Hot</div>
+                      <img
+                        src="images/product-big-5-1.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+
+                      <div class="icon-div d-flex gap-2 text-secondary">
+                        <div class="icon">
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <div
+                          class="icon"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal6"
+                        >
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <!-- <i class="fa fa-heart" aria-hidden="true"></i> -->
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <i class="fa fa-th-large" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center mt-3">
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <a
+                        href="product.html"
+                        class="text-decoration-none text-dark fw-bold d-inline-block my-2"
+                      >
+                        HOODIE WITH ZIPPER </a
+                      ><br />
+                      <span class="product-price">$18.00</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- COL 7 -->
+                <div class="d-none d-lg-block col-lg-3">
+                  <!-- PRODUCT CARD 3 -->
+                  <div class="card product-card">
+                    <div class="aja">
+                      <img
+                        src="images/product-big-2-1.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+
+                      <div class="icon-div d-flex gap-2 text-secondary">
+                        <div class="icon">
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <div
+                          class="icon"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal3"
+                        >
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <!-- <i class="fa fa-heart" aria-hidden="true"></i> -->
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <i class="fa fa-th-large" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center mt-3">
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <a
+                        href="product.html"
+                        class="text-decoration-none text-dark fw-bold d-inline-block my-2"
+                      >
+                        LONG SLEEVE TEE </a
+                      ><br />
+                      <span class="product-price">$25.00</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- COL 8 -->
+                <div class="d-none d-lg-block col-lg-3">
+                  <!-- PRODUCT CARD 4 -->
+                  <div class="card product-card">
+                    <div class="aja">
+                      <img
+                        src="images/product-big-4-1.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+
+                      <div class="icon-div d-flex gap-2 text-secondary">
+                        <div class="icon">
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </div>
+                        <div
+                          class="icon"
+                          data-bs-toggle="modal"
+                          data-bs-target="#modal4"
+                        >
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <!-- <i class="fa fa-heart" aria-hidden="true"></i> -->
+                          <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon">
+                          <i class="fa fa-th-large" aria-hidden="true"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center mt-3">
+                      <div class="text-warning">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </div>
+                      <a
+                        href="product.html"
+                        class="text-decoration-none text-dark fw-bold d-inline-block my-2"
+                      >
+                        HOODIE WITH POCKET </a
+                      ><br />
+                      <span class="product-price d-inline-block">$35.00</span>
+                      <span class="text-decoration-line-through">$45.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SLIDER BUTTONS -->
+          <button
+            class="carousel_control_prev product-carousel-btn d-none d-lg-block"
+            type="button"
+            data-bs-target="#productCardsCarousel"
+            data-bs-slide="prev"
+          >
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          </button>
+          <button
+            class="carousel_control_next product-carousel-btn d-none d-lg-block"
+            type="button"
+            data-bs-target="#productCardsCarousel"
+            data-bs-slide="next"
+          >
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- PRODUCT MODAL COMPONENT -->
+      <!-------------------------------1ST CARD MODAL 1 ----------------------------->
+      <div
+        class="modal fade"
+        id="modal1"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row h-100">
+              <div class="col-12 col-lg-6 modal-col modal-1-col"></div>
+              <div class="col-12 col-lg-6 ps-5">
+                <!-- This below div is acting as parent for the cancel button so cancel button is positioned accordingly -->
+                <div class="bg-danger position-relative">
+                  <span class="position-absolute top-0 end-0 fs-3"
+                    ><i
+                      class="fa fa-times"
+                      aria-hidden="true"
+                      data-bs-dismiss="modal"
+                    ></i
+                  ></span>
+                </div>
+                <p class="fs-4 fw-bold mt-4 m-0">Logo Collection</p>
+                <!-- Copied star icons featured product card section -->
+                <span class="text-warning d-inline-block my-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span>(1 customer review)</span>
+                <p class="text-secondary">$18.00</p>
+                <p class="text-secondary">This is a simple product</p>
+
+                <!-- Below I added button group and add to cart button inside of a div so that i can vertically align them and also set some gap -->
+                <div class="d-flex align-items-center gap-2 mb-4">
+                  <div
+                    class="btn-group"
+                    role="group"
+                    aria-label="Basic example"
+                  >
+                    <button type="button" class="btn btn-primary fw-bold">
+                      1
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-plus" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-minus" aria-hidden="true"></i>
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart contact-us-btn">
+                    Add to Cart
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                  </button>
+
+                  <span class="like-product-icon">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </span>
+                </div>
+                <p class="m-0 fs-5">
+                  SKU : <span class="text-secondary">Logo-Collection</span>
+                </p>
+                <p class="m-0 mt-2 fs-5">
+                  Category : <span class="text-secondary">Clothing</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------------2ND CARD MODAL 2 -------------------------- -->
+      <div
+        class="modal fade"
+        id="modal2"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row h-100">
+              <div class="col-12 col-lg-6 modal-col modal-2-col"></div>
+              <div class="col-12 col-lg-6 ps-5">
+                <!-- This below div is acting as parent for the cancel button so cancel button is positioned accordingly -->
+                <div class="bg-danger position-relative">
+                  <span class="position-absolute top-0 end-0 fs-3"
+                    ><i
+                      class="fa fa-times"
+                      aria-hidden="true"
+                      data-bs-dismiss="modal"
+                    ></i
+                  ></span>
+                </div>
+                <p class="fs-4 fw-bold mt-4 m-0">Album</p>
+                <!-- Copied star icons featured product card section -->
+                <span class="text-warning d-inline-block my-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span>(1 customer review)</span>
+                <p class="text-secondary">$15.00</p>
+                <p class="text-secondary">This is a simple product</p>
+
+                <!-- Below I added button group and add to cart button inside of a div so that i can vertically align them and also set some gap -->
+                <div class="d-flex align-items-center gap-2 mb-4">
+                  <div
+                    class="btn-group"
+                    role="group"
+                    aria-label="Basic example"
+                  >
+                    <button type="button" class="btn btn-primary fw-bold">
+                      1
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-plus" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-minus" aria-hidden="true"></i>
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart contact-us-btn">
+                    Add to Cart
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                  </button>
+
+                  <span class="like-product-icon">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </span>
+                </div>
+                <p class="m-0 fs-5">
+                  SKU : <span class="text-secondary">Woo-Album</span>
+                </p>
+                <p class="m-0 mt-2 fs-5">
+                  Category : <span class="text-secondary">Music</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------------3RD CARD MODAL 3 ----------------------------->
+      <div
+        class="modal fade"
+        id="modal3"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row h-100">
+              <div class="col-12 col-lg-6 modal-col modal-3-col"></div>
+              <div class="col-12 col-lg-6 ps-5">
+                <!-- This below div is acting as parent for the cancel button so cancel button is positioned accordingly -->
+                <div class="bg-danger position-relative">
+                  <span class="position-absolute top-0 end-0 fs-3"
+                    ><i
+                      class="fa fa-times"
+                      aria-hidden="true"
+                      data-bs-dismiss="modal"
+                    ></i
+                  ></span>
+                </div>
+                <p class="fs-4 fw-bold mt-4 m-0">Long Sleeve Tee</p>
+                <!-- Copied star icons featured product card section -->
+                <span class="text-warning d-inline-block my-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span>(1 customer review)</span>
+                <p class="text-secondary">$25.00</p>
+                <p class="text-secondary">This is a simple product</p>
+
+                <!-- Below I added button group and add to cart button inside of a div so that i can vertically align them and also set some gap -->
+                <div class="d-flex align-items-center gap-2 mb-4">
+                  <div
+                    class="btn-group"
+                    role="group"
+                    aria-label="Basic example"
+                  >
+                    <button type="button" class="btn btn-primary fw-bold">
+                      1
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-plus" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-minus" aria-hidden="true"></i>
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart contact-us-btn">
+                    Add to Cart
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                  </button>
+
+                  <span class="like-product-icon">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </span>
+                </div>
+                <p class="m-0 fs-5">
+                  SKU : <span class="text-secondary">Woo-Long-Sleeve-Tee</span>
+                </p>
+                <p class="m-0 mt-2 fs-5">
+                  Category : <span class="text-secondary">Tshirts</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------------4TH CARD MODAL 4 ----------------------------->
+      <div
+        class="modal fade"
+        id="modal4"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row h-100">
+              <div class="col-12 col-lg-6 modal-col modal-4-col"></div>
+              <div class="col-12 col-lg-6 ps-5">
+                <!-- This below div is acting as parent for the cancel button so cancel button is positioned accordingly -->
+                <div class="bg-danger position-relative">
+                  <span class="position-absolute top-0 end-0 fs-3"
+                    ><i
+                      class="fa fa-times"
+                      aria-hidden="true"
+                      data-bs-dismiss="modal"
+                    ></i
+                  ></span>
+                </div>
+                <p class="fs-4 fw-bold mt-4 m-0">Hoodie with Pocket</p>
+                <!-- Copied star icons featured product card section -->
+                <span class="text-warning d-inline-block my-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span>(1 customer review)</span>
+                <p class="text-secondary">$35.00 <del>$45.00</del></p>
+                <p class="text-secondary">This is a simple product</p>
+
+                <!-- Below I added button group and add to cart button inside of a div so that i can vertically align them and also set some gap -->
+                <div class="d-flex align-items-center gap-2 mb-4">
+                  <div
+                    class="btn-group"
+                    role="group"
+                    aria-label="Basic example"
+                  >
+                    <button type="button" class="btn btn-primary fw-bold">
+                      1
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-plus" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-minus" aria-hidden="true"></i>
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart contact-us-btn">
+                    Add to Cart
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                  </button>
+
+                  <span class="like-product-icon">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </span>
+                </div>
+                <p class="m-0 fs-5">
+                  SKU :
+                  <span class="text-secondary">Woo-Hoodie-With-Pocket</span>
+                </p>
+                <p class="m-0 mt-2 fs-5">
+                  Category : <span class="text-secondary">Hoodies</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------------5TH CARD MODAL 5 ----------------------------->
+      <div
+        class="modal fade"
+        id="modal5"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row h-100">
+              <div class="col-12 col-lg-6 modal-col modal-5-col"></div>
+              <div class="col-12 col-lg-6 ps-5">
+                <!-- This below div is acting as parent for the cancel button so cancel button is positioned accordingly -->
+                <div class="bg-danger position-relative">
+                  <span class="position-absolute top-0 end-0 fs-3"
+                    ><i
+                      class="fa fa-times"
+                      aria-hidden="true"
+                      data-bs-dismiss="modal"
+                    ></i
+                  ></span>
+                </div>
+                <p class="fs-4 fw-bold mt-4 m-0">Hoodie with Pocket</p>
+                <!-- Copied star icons featured product card section -->
+                <span class="text-warning d-inline-block my-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span>(1 customer review)</span>
+                <p class="text-secondary">$35.00 <del>$45.00</del></p>
+                <p class="text-secondary">This is a simple product</p>
+
+                <!-- Below I added button group and add to cart button inside of a div so that i can vertically align them and also set some gap -->
+                <div class="d-flex align-items-center gap-2 mb-4">
+                  <div
+                    class="btn-group"
+                    role="group"
+                    aria-label="Basic example"
+                  >
+                    <button type="button" class="btn btn-primary fw-bold">
+                      1
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-plus" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-minus" aria-hidden="true"></i>
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart contact-us-btn">
+                    Add to Cart
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                  </button>
+
+                  <span class="like-product-icon">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </span>
+                </div>
+                <p class="m-0 fs-5">
+                  SKU :
+                  <span class="text-secondary">Woo-Hoodie-With-Pocket</span>
+                </p>
+                <p class="m-0 mt-2 fs-5">
+                  Category : <span class="text-secondary">Hoodies</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-------------------------------6TH CARD MODAL 6 ----------------------------->
+      <div
+        class="modal fade"
+        id="modal6"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="row h-100">
+              <div class="col-12 col-lg-6 modal-col modal-6-col"></div>
+              <div class="col-12 col-lg-6 ps-5">
+                <!-- This below div is acting as parent for the cancel button so cancel button is positioned accordingly -->
+                <div class="bg-danger position-relative">
+                  <span class="position-absolute top-0 end-0 fs-3"
+                    ><i
+                      class="fa fa-times"
+                      aria-hidden="true"
+                      data-bs-dismiss="modal"
+                    ></i
+                  ></span>
+                </div>
+                <p class="fs-4 fw-bold mt-4 m-0">Hoodie with Pocket</p>
+                <!-- Copied star icons featured product card section -->
+                <span class="text-warning d-inline-block my-2">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+                <span>(1 customer review)</span>
+                <p class="text-secondary">$35.00 <del>$45.00</del></p>
+                <p class="text-secondary">This is a simple product</p>
+
+                <!-- Below I added button group and add to cart button inside of a div so that i can vertically align them and also set some gap -->
+                <div class="d-flex align-items-center gap-2 mb-4">
+                  <div
+                    class="btn-group"
+                    role="group"
+                    aria-label="Basic example"
+                  >
+                    <button type="button" class="btn btn-primary fw-bold">
+                      1
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-plus" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      <i class="fa fa-minus" aria-hidden="true"></i>
+                    </button>
+                  </div>
+
+                  <button class="add-to-cart contact-us-btn">
+                    Add to Cart
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                  </button>
+
+                  <span class="like-product-icon">
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </span>
+                </div>
+                <p class="m-0 fs-5">
+                  SKU :
+                  <span class="text-secondary">Woo-Hoodie-With-Pocket</span>
+                </p>
+                <p class="m-0 mt-2 fs-5">
+                  Category : <span class="text-secondary">Hoodies</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       OTHER FITNESS BRANDS SECTION 
+    ------------------------------------------------------------------------------------------------------>
+
+    <section class="fitness-brands">
+      <div class="fitness-company-casting"></div>
+      <div
+        id="fitness-company-carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active h-100">
+            <div class="container">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-3" style="width: 15rem !important">
+                  <img src="images/brand-1.png" alt="" />
+                </div>
+                <div class="col-3" style="width: 15rem !important">
+                  <img src="images/brand-2.png" alt="" />
+                </div>
+                <div class="col-3" style="width: 15rem !important">
+                  <img src="images/brand-3.png" alt="" />
+                </div>
+                <div class="col-3" style="width: 15rem !important">
+                  <img src="images/brand-4.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-3" style="width: 15rem !important">
+                  <img src="images/brand-6.png" alt="" />
+                </div>
+                <div class="col-3" style="width: 15rem !important">
+                  <img src="images/brand-7.png" alt="" />
+                </div>
+                <div class="col-3" style="width: 15rem !important">
+                  <img src="images/brand-3.png" alt="" />
+                </div>
+                <div class="col-3" style="width: 15rem !important">
+                  <img src="images/brand-4.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------                                                       FOOTER SECTION 
+    ------------------------------------------------------------------------------------------------------>
+
+    <footer>
+      <div class="container">
+        <div class="row h-100">
+          <div class="col-12 col-lg-4">
+            <p class="fs-2 fw-bold">About Us</p>
+            <p class="footer-about-us-text">
+              Credibly procrastinate portunities through echni cally sound
+              technologies. Develop outsourcing through web services transform
+              maintain integrated customer service...
+            </p>
+            <dic class="social-div d-flex gap-2">
+              <div class="social-icons">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </div>
+              <div class="social-icons">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </div>
+              <div class="social-icons">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </div>
+              <div class="social-icons">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </div>
+            </dic>
+          </div>
+          <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+            <p class="fs-2 fw-bold">All Services</p>
+            <div class="d-flex gap-5">
+              <ul class="list-unstyled">
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Body Health
+                  </a>
+                </li>
+
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Mental Care
+                  </a>
+                </li>
+
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Muscle Gain
+                  </a>
+                </li>
+
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Fitness Mind
+                  </a>
+                </li>
+
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Fresh Body
+                  </a>
+                </li>
+
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Daily routine
+                  </a>
+                </li>
+              </ul>
+
+              <!-- 2nd list -->
+              <ul class="list-unstyled">
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Muscle Gain
+                  </a>
+                </li>
+
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Body Health
+                  </a>
+                </li>
+
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Mental Care
+                  </a>
+                </li>
+
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Fat Burn
+                  </a>
+                </li>
+
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Yoga Excercise
+                  </a>
+                </li>
+
+                <li class="mb-2 extra">
+                  <a
+                    href="#"
+                    class="text-secondary fw-bold text-decoration-none footer-service-link"
+                  >
+                    <span>
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    Finish Fast
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+            <p class="fs-2 fw-bold">News Feed</p>
+            <div class="news-feed-div">
+              <div class="d-flex p-2 gap-4">
+                <div class="rounded">
+                  <img
+                    src="images/blog-big-1-100x86.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div>
+                  <a href="#" class="text-decoration-none fw-bold news-link"
+                    >Credibly procra stinate portu nities</a
+                  >
+                  <p class="mt-1 text-secondary">
+                    <i class="fa fa-calendar" aria-hidden="true"></i> 01
+                    December, 2021
+                  </p>
+                </div>
+              </div>
+
+              <!-- 2nd news feed div -->
+              <div class="d-flex p-2 gap-4">
+                <div class="rounded">
+                  <img
+                    src="images/blog-big-5-100x86.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div>
+                  <a href="#" class="text-decoration-none fw-bold news-link"
+                    >Credibly procra stinate portu nities</a
+                  >
+                  <p class="mt-1 text-secondary">
+                    <i class="fa fa-calendar" aria-hidden="true"></i> 01
+                    December, 2021
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright-div text-center pt-4 pb-2">
+      <p>
+        Copyright &#169; 2022 <b>Gimia</b> . All Rights Reserved by
+        <b>Angfuzsoft</b>
+      </p>
+    </div>
+
+    <script>
+      //-------- POPOVER JAVASCRIPT--------
+      var popoverTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      );
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
+      });
+    </script>
+  </body>
+</html>
